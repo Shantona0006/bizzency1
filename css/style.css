@@ -747,143 +747,124 @@ nav .icon i:hover{
 
 
 	/*==================================
-           footer part start
-	==================================*/
-footer{
-   padding: 80px 0;
-   margin-top: 100px;
-   background: #f5f5f5;
-  -webkit-box-shadow: 0px 0px 13px 0.2px rgba(133,131,133,1);
-  -moz-box-shadow: 0px 0px 13px 0.2px rgba(133,131,133,1);
-  box-shadow: 0px 0px 13px 0.2px rgba(133,131,133,1);
+			Footer part start
+	====================================*/
+		footer{
+		
+			margin-top: 100px;
+			margin-bottom: 0px;
+			background: #f5f5f5;
+			-webkit-box-shadow: 0px 0px 79px -41px rgba(163,163,163,1);
+			-moz-box-shadow: 0px 0px 79px -41px rgba(163,163,163,1);
+			box-shadow: 0px 0px 79px -41px rgba(163,163,163,1);
+		}
+		footer .container{
+				padding: 80px 0px;
+		}
+		footer .back-to-top a i{
+			background:#ffc712 ;
+			height: 80px;
+			width: 80px;
+			border-radius: 50%;
+			line-height: 80px;
+			text-align: center;
+			margin-top:-700px;
+			margin-left: 780px;
+			font-size: 25px;
+			color: #ffffff;
+		}
+		
+		footer .footer-left{
+			width: 22%;
+			margin-right: 20px;
+			float: left;
+		}
+		footer .footer-left p{
+			margin: 20px 0px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			width: 280px;
 
-}
-footer a{
-	margin-top: -29px;
-	margin-left: 800px;
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	height: 70px;
-	width: 70px;
-	line-height: 70px;
-	border-radius: 50%;
-	background: #ffc712;
-	font-size: 23px;
-}
-footer a i{
-	margin-top: 25px;
-	position: absolute;
-	color: #fff;
-	margin-left: -9px;
-}
-footer .container{
-	padding: 80px 0 50px 0;
-}
+		}
+		footer .footer-left .footer-icon i{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			border: 1px solid #0f2f44;
+			text-align: center;
+			line-height: 40px;
+			margin-right: 8px;
+			font-size: 20px;
+			box-sizing: border-box;
+			transition: .4s;
+		}
 
-footer .footer-left{
-	width: 22%;
-	float: left;
-	margin-right: 20px;
-}
-footer .footer-left p{
-	margin: 20px 0;
-    font-family: 'Open San', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	width: 280px;
-}
-footer .footer-left .footer-icon i{
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 1px solid #0f2f44;
-	line-height: 40px;
-	text-align: center;
-	font-size: 20px;
-	margin-right: 5px;
-
-}
-
-footer .footer-left .footer-icon i:hover{
-	background: #0f2f44;
-	color: #fff;
-	transition: .4s;
-	cursor: pointer;
-}
-
-footer .contact{
-	width: 25%;
-	float: left;
-	margin: 0 15px;
-
-}
-
-footer h3{
-	font-family: 'Open San', sans-serif;
-	font-size: 20px;
-	font-weight: 500;
-	margin-bottom: 20px;
-}
-footer .contact .icon{
-	float: left;
-	color: #777777;
-	font-size: 25px;
-	margin-bottom: 20px;
-}
-
-footer .contact .icon i{
-	margin-top: 7px;
-}
-
-footer .contact .text{
-	float: left;
-	color: #777777;
-	font-family: 'Open San', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	margin-bottom: 20px;
-}
-footer .contact .text p{
-	width: 240px;
-	margin-left: 20px;
-
-}
-
-footer .links{
-	float: left;
-	width: 17%;
-
-}
-footer .links ol li{
-	color: #444444;
-	font-family: 'Open San', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	margin: 10px 0;
-	transition: .4s;
-}
-
-
-
-footer .links ol li:hover{
-	margin-left: 8px;
-	cursor: pointer;
-
-}
-
-footer .filckr{
-	width: 29%;
-	float: left;
-}
-footer .filckr .images img{
-	margin: 0 10px 10px 0;
-}
-
-
-/*==================================
-           footer part End
-	==================================*/
+		footer .footer-left .footer-icon i:hover{
+			background: #0f2f44;
+			color: #ffffff;
+			cursor: pointer;
+		}
+		footer .contact{
+			width: 24%;
+			float: left;
+			margin: 0px 15px;
+		}
+		footer h3{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 25px;
+		}
+		footer .contact .icon{
+			float: left;
+			color: #777777;
+			font-size: 25px;
+			margin-bottom: 20px;
+			
+		}
+		footer .contact .icon i{
+			margin-top: 8px;
+			
+		}
+		footer .contact .text{
+			float: left;
+			color: #777777;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			margin-bottom: 20px;
+		}
+		footer .contact p{
+			width: 240px;
+			margin-left: 20px;
+		}
+		footer .links{
+			float: left;
+			width: 17%;
+		}
+		footer .links ol li{
+			color: #444444;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			margin: 15px 0px;
+			transition: .4s;
+		}
+		footer .links ol li:hover{
+			margin-left: 8px;
+			cursor: pointer;
+		}
+		footer .plickr{
+			width: 29%;
+			float: left;
+		}
+		footer .plickr img{
+			margin: 0px 10px 10px 0px;
+		}			
+	/*==================================
+			Footer part end
+	====================================*/
 .footer_bottom{
 	width: 100%;
 	background: #f8f8f8;
